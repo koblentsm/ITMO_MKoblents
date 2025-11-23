@@ -1,0 +1,92 @@
+mkdir lab0
+cd lab0
+echo "Развитые способности Weak Armor" > ferrothorn5
+echo -e "Тип диеты \nOmnivore" > rattata8
+echo "satk=3 sdef=3 spd=9" > taillow2
+mkdir lopunny0 porygon1 swoobat3
+
+
+cd lopunny0
+mkdir jumpluff sandile kabuto
+echo -e "Ходы \nEndeavor fire Punch Heat Wave Sleep Talk Snore Superpower Uproar Zen \nHeadbutt" > darmanitan
+echo -e "Ходы Air Cutter Defog Endeavor Heat Wave Mud-Slap \nOminous Wind Roost Sleep Talk Snore Swift Tailwind \nTwister" > starly
+echo -e "Тип покемона WATER NONE" > golduck
+
+
+cd ..
+cd porygon1
+mkdir granbull quagsire crawdaunt misdreavus
+echo -e "Способности \nMountain Peak Landslide Sturdy Rock Head" > geodude
+
+
+cd ..
+cd swoobat3
+mkdir woobat pawniard
+echo -e "Ходы Aqua Tail Avalanche Body Slam Dive Double-Edge \nDrill Run Icy Wind# Iron Tail Signal Beam# Sleep Talk Snore Water \nPulse" > dewgong
+echo -e "Развитые способности Rain Dish Water \nAbsorb" > pelipper
+echo -e "Способности Bite Roar Ember Leer Odor Sleuth \nHelping Hand Flame Wheel Reversal Fire Fang Take Down Flame Burst \nAgility Retaliate Flamethrower Crunch Heat Wave Outrage Flare \nBlitz" > growlithe
+
+
+
+
+cd ..
+chmod 660 ferrothorn5
+chmod 771 lopunny0
+cd lopunny0
+chmod 733 jumpluff
+chmod u=rx,g=rwx,o=rw sandile
+chmod 733 kabuto
+chmod 044 darmanitan
+chmod 624 starly
+chmod 066 golduck
+cd ..
+chmod 737 porygon1
+cd porygon1
+chmod 312 granbull
+chmod 524 quagsire
+chmod 711 crawdaunt
+chmod 404 geodude
+chmod 577 misdreavus
+cd ..
+chmod 444 rattata8
+cd swoobat3
+chmod ug=r dewgong
+chmod 700 woobat
+chmod uo=wx,g=rwx pawniard
+chmod u=rw,g=w pelipper
+chmod ugo=r growlithe
+cd ..
+chmod 312 swoobat3
+chmod 044 taillow2
+
+
+ln ferrothorn5 porygon1/geodudeferrothorn
+cp -r porygon1/ porygon1/quagsire/
+ln -s porygon1/ Copy_79
+cp taillow2 lopunny0/jumpluff
+cat lopunny0/starly swoobat3/growlithe > rattata8_29
+cp ferrothorn5 porygon1/geodudeferrothorn
+ln -s ferrothorn5 lopunny0/starlyferrothorn
+
+
+
+cd ..
+chmod u=rwx lab0/swoobat3
+wc -m $(grep -Rl . lab0 | grep 'e$') | sort -r
+ls -lRtr lab0 2>/dev/null | grep -E '^-.* [^ ]*s[^ ]*$' | head -2
+cat -n lab0/rattata8 | sort -k2
+cat -n $(grep -Rl . lab0 2>/tmp/errors| grep 't$' || echo "nonexistent") 2>>/tmp/errors | sort -r -k2
+cat lab0/rattata8 2>/dev/null | sort -r
+wc -m lab0/lopunny0/darmanitan lab0/lopunny0/starly lab0/lopunny0/golduck lab0/porygon1/geodude lab0/swoobat3/dewgong lab0/swoobat3/pelipper lab0/swoobat3/growlithe 2>&1 | sort
+
+
+chmod u=rwx lab0/taillow2
+rm lab0/taillow2
+chmod -R 777 lab0/swoobat3
+rm lab0/swoobat3/growlithe
+rm lab0/lopunny0/starlyferrothorn
+rm lab0/porygon1/geodudeferrothorn
+rm -r lab0/swoobat3/
+rmdir lab0/porygon1/quagsire
+
+

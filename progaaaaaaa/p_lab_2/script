@@ -1,0 +1,3 @@
+javac -cp "Pokemon.jar" attacks/*.java programm/*.java pokemons/*.java
+jar -f Programm.jar -m manifest -c attacks/*.class programm/*.class pokemons/*.class
+java -jar Programm.jar 

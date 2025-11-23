@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><Schedule>
+  <Day name="Saturday">
+    <Classes>
+      <Class>
+        <Subject>Основы профессиональной деятельности</Subject>
+        <Type>lab</Type>
+        <Time>13:30-15:00</Time>
+        <Format>Очный</Format>
+        <Room>ауд. 1320</Room>
+        <Address>Кронверкский пр., д.49, лит. А</Address>
+        <Teacher>Ермаков Михаил Константинович</Teacher>
+      </Class>
+      <Class>
+        <Subject>Основы профессиональной деятельности</Subject>
+        <Type>lab</Type>
+        <Time>15:30-17:00</Time>
+        <Format>Очный</Format>
+        <Room>ауд. 1320</Room>
+        <Address>Кронверкский пр., д.49, лит. А</Address>
+        <Teacher>Ермаков Михаил Константинович</Teacher>
+      </Class>
+      <Class>
+        <Subject>Реформы и реформаторы в истории России</Subject>
+        <Type>practice</Type>
+        <Time>18:50-20:20</Time>
+        <Format>Дистанционный</Format>
+        <Room></Room>
+        <Address></Address>
+        <Teacher>Вычеров Дмитрий Александрович</Teacher>
+      </Class>
+      <Class>
+        <Subject>Реформы и реформаторы в истории России</Subject>
+        <Type>lecture</Type>
+        <Time>20:30-22:00</Time>
+        <Format>Дистанционный</Format>
+        <Room></Room>
+        <Address></Address>
+        <Teacher>Новиков Максим Дмитриевич</Teacher>
+      </Class>
+    </Classes>
+</Schedule>

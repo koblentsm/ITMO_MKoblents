@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Schedule>
+  <Day name="Monday">
+    <key>value</key>
+    <Classes>
+      <Class>
+        <Subject>Основы дискретной математики (базовый уровень)</Subject>
+        <Type>lecture</Type>
+        <Time>09:50-11:20</Time>
+        <Format>Очный</Format>
+        <Room>ауд. 2337</Room>
+        <Address>Кронверкский пр., д.49, лит. А</Address>
+        <Teacher></Teacher>
+      </Class>
+      <Class>
+        <Subject>Основы дискретной математики (базовый уровень)</Subject>
+        <Type>practice</Type>
+        <Time>11:30-13:00</Time>
+        <Format>Очный</Format>
+        <Room>ауд. 2337</Room>
+        <Address>Кронверкский пр., д.49, лит. А</Address>
+        <Teacher>Поляков Владимир Иванович</Teacher>
+      </Class>
+    </Classes>
+</Schedule>
